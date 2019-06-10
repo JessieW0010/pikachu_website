@@ -1,2 +1,2 @@
-# practice_website
+# pikachu_website
 first github pages website
