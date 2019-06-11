@@ -3,23 +3,21 @@
 }
 
 h1, h2, nav a {
-  font-family: 'Bungee', cursive;
+  font-family: 'Bungee';
 }
 
-.center {
+header.center {
   text-align: center;
-  margin: auto;
+  float: left;
+  width: 30%;
 }
 
 .no-style-list {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
 nav li{
-  display: inline-block;
-  margin: 30px;
+  margin: 20px;
   font-size: 24px;
 }
 
@@ -41,24 +39,23 @@ a {
   background-position: top center;
 }
 
-h1 {
-  padding: 1%;
-  padding-top: 3%;
-}
-
 main.container {
-  padding: 10%;
   background-color: blue;
+  float: right;
+  width: 70%;
+  height: 800px;
 }
 
 header.center {
   background-color: antiquewhite;
-  padding-top: 50px;
+  text-align: center;
+  height: 775px;
+  padding-top: 25px;
 }
 
 #contact img {
   width: 35px;
-  padding: 1.5%;
+  padding-top: 3px;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -69,6 +66,5 @@ footer.social {
 }
 
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0; /*no weird white border*/
 }
