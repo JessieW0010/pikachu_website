@@ -1,0 +1,74 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, nav a {
+  font-family: 'Bungee', cursive;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.no-style-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 30px;
+  font-size: 24px;
+}
+
+/*removes underlines */
+a {
+  text-decoration: none;
+}
+
+/*pikachu avatar to be circular and centered */
+#avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-image: url(../pictures/profilepic.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+h1 {
+  padding: 1%;
+  padding-top: 3%;
+}
+
+main.container {
+  padding: 10%;
+  background-color: blue;
+}
+
+header.center {
+  background-color: antiquewhite;
+  padding-top: 50px;
+}
+
+#contact img {
+  width: 35px;
+  padding: 1.5%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.social {
+  background-color: aqua;
+}
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
